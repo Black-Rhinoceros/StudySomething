@@ -1,12 +1,9 @@
 # Git和Github使用学习笔记
 ---
 ## Git安装
-
 1. [官网下载](https://git-scm.com/downloads)安装包
 2. 一路Next即可
 3. 打开开始菜单，运行Git Bash即可(下文代码，全部在该窗口运行)
-
-
 ## Github第一面 ###
 
 * sign in 建立账号+邮箱+登陆密码  
@@ -35,7 +32,7 @@ ssh-keygen -t rsa -C "YourEmail@example.com"
 ~~~
 ssh -T git@github.com   
 ~~~
-6. 出现“Hi YourName......” 则链接成功  
+6. 出现“Hi YourName......” 则链接成功   
 #### 建立本地仓库，并推送
 ~~~
 git init  #初始化  
@@ -48,7 +45,6 @@ git push -u origin master  #推送到远程仓库，master分支
 git log  #查看修改日志
 ~~~
 #### 下载远程仓库
-
 * 找到需要协作的仓库，fork到自己的远程仓库
 * 打开仓库存放目录  
 * 右键打开Git Bash  
@@ -66,9 +62,9 @@ git commit -m  "说明"#更新本地仓库，这个说明会记录到github上
 git push  #将本地仓库修改推送到远程仓库
 ~~~
 * 浏览器登录Github，找到fork的仓库，点击pull requests
-
-
 ----
 **时间戳**
 > 第一次编辑：12/20/2017 10:10:25 PM
 > 第二次修改：2017/12/21 17:23:47 
+
+ 
