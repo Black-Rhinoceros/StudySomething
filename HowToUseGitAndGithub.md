@@ -35,9 +35,7 @@ ssh-keygen -t rsa -C "YourEmail@example.com"
 ~~~
 ssh -T git@github.com   
 ~~~
-
 6. 出现“Hi YourName......” 则链接成功  
-
 #### 建立本地仓库，并推送
 ~~~
 git init  #初始化  
@@ -69,5 +67,8 @@ git push  #将本地仓库修改推送到远程仓库
 ~~~
 * 浏览器登录Github，找到fork的仓库，点击pull requests
 
+
+----
+**时间戳**
 > 第一次编辑：12/20/2017 10:10:25 PM
 > 第二次修改：2017/12/21 17:23:47 
